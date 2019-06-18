@@ -1,4 +1,9 @@
 class EmailParser
+  attr_accessor :email 
+  
+  def initialize(email)
+    @email = email 
+  end
   
 
 # Build a class EmailParser that accepts a string of unformatted 
